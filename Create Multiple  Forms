@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+      <title> Create Multiple Forms Practice Project </title>
+  </head>
+  <body>
+    <header>
+      <form>
+        <h2>Already Registered? <u>LOGIN</u> now </h2>
+        <label for = "email">Email</label>
+        <input type = "email" name = "email" id = "email"required placeholder = "abc@gmail.com">
+        <label for = "password">Password</label>
+        <input type = "password" name = "password" id = "password" required>
+        <link rel = "Shortcut icon" type = " image/x-icon " href = "https://ninjasfiles.s3.amazonaws.com/0000000000001394.png">
+        <input type = "button" value = "Submit">
+      </form>
+    </header>
+    <p>
+      <a href="https://blog.codingninjas.in/">Coding Ninjas Blogs
+      </a>
+    </p> 
+    <p>
+      <img src = " https://ninjasfiles.s3.amazonaws.com/0000000000001395.png ">
+    </p> 
+
+    <br />
+    <br />
+    <main>
+      <section>
+        <h3> <u> REGISTRATION </u> </h3>
+      </section>
+
+      <br />
+      <br />
+        <table>
+          <label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" id="lname" name="lname">
+          <tr>
+            <td> 
+              <label for = "currentaddress">Current Address:</label>&nbsp;&nbsp;&nbsp;
+            </td>
+            <td> 
+              <br>
+              <label for = "flatnumber/housenumber">Flat No./House No.</label>
+              <input type="flatnumber" id="flatnumber" name="flatnumber"><br><br>
+              <label for = "locality">Locality</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="locality" id="locality" name="locality"><br><br>
+              <label for = "city">City</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="city" id="city" name="city">      
+            </td>
+          </tr>
+        </table> 
+          <p><b>Is Current address and Permanent address same?</b>
+            <form action="" method="post">
+              <input type = "radio" name = "address" value = "Yes"  checked> Yes
+              <input type = "radio" name = "address" value = "No" > No 
+            </form>  
+          </p>
+          <form>
+            <label for = "email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type = "email" name = "email" id = "email"required placeholder = "abc@gmail.com"><br><br>
+            <label for = "password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type = "password" name = "password" id = "password" required><br><br>
+            <input type = "button" value = "Register">
+          </form>
+        </section>
+    </main>
+  </body>
+</html>
